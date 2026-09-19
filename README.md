@@ -2,7 +2,7 @@
 
 ### Engineering Student | Python • C++ • JavaScript • Machine Learning
 
-I build software projects at the intersection of **simulation, data, systems, and machine learning**. I like turning technical ideas into structured, testable, and reproducible software.
+I build software projects at the intersection of **simulation, data, systems, and machine learning**. I like turning technical ideas into structured, testable, and reproducible software!
 
 ## 🔬 Currently Working On
 
