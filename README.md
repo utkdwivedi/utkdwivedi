@@ -1,21 +1,27 @@
-# Hi, I'm Utkarsh Dwivedi 👋
-
 <p align="center">
-  <a href="https://github.com/utkdwivedi">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Engineering+Student+%7C+Software+Builder;Physics+Simulation+%C3%97+Machine+Learning;Systems+%26+Performance+Engineering;Turning+Ideas+Into+Reproducible+Software" alt="Typing SVG" />
-  </a>
+  <img src="assets/header.svg" alt="Utkarsh Dwivedi — Simulation, Machine Learning, Systems" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://github.com/utkdwivedi"><img src="https://komarev.com/ghpvc/?username=utkdwivedi&style=flat-square&label=profile+views" alt="Profile views"></a>
-  <a href="https://github.com/utkdwivedi?tab=followers"><img src="https://img.shields.io/github/followers/utkdwivedi?style=flat-square&label=followers" alt="Followers"></a>
+  <a href="https://github.com/utkdwivedi"><img src="https://img.shields.io/badge/GitHub-utkdwivedi-181717?style=flat-square&logo=github" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/utkarsh-dwivedi-5938b23aa/"><img src="https://img.shields.io/badge/LinkedIn-Utkarsh%20Dwivedi-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
+  <a href="RESUME.md"><img src="https://img.shields.io/badge/Resume-View-238636?style=flat-square&logo=readthedocs&logoColor=white" alt="Resume"></a>
 </p>
 
-> I build software where **physics, data, machine learning, and systems engineering** meet.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=utkdwivedi&style=flat-square&label=profile+views" alt="Profile views">
+  <img src="https://img.shields.io/github/followers/utkdwivedi?style=flat-square&label=followers" alt="Followers">
+</p>
+
+## `$ whoami`
+
+> Engineering student building software at the intersection of **simulation, machine learning, systems, and infrastructure**.
+
+I like working below the abstraction layer — understanding the model, the algorithm, the bottleneck, and the system that makes the whole thing work.
 
 ---
 
-## ⚡ What I'm Building
+## ⚡ Currently Building
 
 <table>
 <tr>
@@ -23,18 +29,18 @@
 
 ### 🧮 Physics → Data → ML
 
-Building a **ballistic simulation engine** that models impact physics, material behavior, and strain-rate effects — then turns those simulations into high-throughput synthetic datasets for ML/PINN experiments.
+Building a **ballistic simulation engine** for impact physics, material behavior, strain-rate effects, and high-throughput synthetic dataset generation for ML/PINN experiments.
 
-**Stack:** Python · NumPy · SciPy · Numba · PyTorch · Parquet
+**Python · NumPy · SciPy · Numba · PyTorch · Parquet**
 
 </td>
 <td width="50%" valign="top">
 
 ### ☸️ Infrastructure That Runs Itself
 
-Maintaining a **GitOps Kubernetes homelab** with declarative infrastructure, automated provisioning, observability, policy enforcement, encrypted secrets, and zero-trust ingress.
+Building a reproducible **GitOps Kubernetes homelab** with declarative provisioning, automated reconciliation, observability, policy enforcement, encrypted secrets, and zero-trust ingress.
 
-**Stack:** K3s · Kubernetes · Terraform · Ansible · FluxCD · Cilium · Prometheus · Grafana
+**K3s · Terraform · Ansible · FluxCD · Cilium · Prometheus · Grafana**
 
 </td>
 </tr>
@@ -44,83 +50,159 @@ Maintaining a **GitOps Kubernetes homelab** with declarative infrastructure, aut
 
 ## 🚀 Featured Projects
 
-### [Ballistic Simulation Engine](https://github.com/utkdwivedi/Ballistic-Simulation-Engine)
-Physics-based impact simulation + synthetic dataset generation for ML/PINN research.
+### 01 · [Ballistic Simulation Engine](https://github.com/utkdwivedi/Ballistic-Simulation-Engine)
+
+**Physics → Simulation → Synthetic Data → ML / PINN**
+
+A physics-based impact simulation engine designed to turn constitutive material models and numerical simulation into structured, ML-ready datasets.
+
+`Johnson-Cook` · `Cowper-Symonds` · `Numba` · `PyTorch` · `Parquet`
+
+[![Repository](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github)](https://github.com/utkdwivedi/Ballistic-Simulation-Engine)
+
+### 02 · [Homelab — GitOps Kubernetes Cluster](https://github.com/utkdwivedi/homelab)
+
+**Infrastructure → GitOps → Observability → Services**
+
+A self-hosted Kubernetes platform built around Infrastructure as Code and continuous reconciliation.
+
+`K3s` · `Kubernetes` · `Terraform` · `Ansible` · `FluxCD` · `Cilium` · `Prometheus` · `Grafana`
+
+[![Tag](https://img.shields.io/github/v/tag/utkdwivedi/homelab?style=flat-square&logo=semver&logoColor=white)](https://github.com/utkdwivedi/homelab/tags)
+[![Documentation](https://img.shields.io/website?label=documentation&logo=gitbook&logoColor=white&style=flat-square&url=https%3A%2F%2Fhomelab.khuedoan.com)](https://homelab.khuedoan.com)
+[![Stars](https://img.shields.io/github/stars/utkdwivedi/homelab?logo=github&logoColor=white&color=gold&style=flat-square)](https://github.com/utkdwivedi/homelab)
+
+### 03 · [Retro-Synth](https://github.com/utkdwivedi/Retro-Synth)
+
+A creative coding project exploring browser-based audio and retro-inspired interaction.
+
+[![Repository](https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github)](https://github.com/utkdwivedi/Retro-Synth)
+
+---
+
+## 🧠 How I Think
 
 ```text
-Constitutive Models  →  Numerical Simulation  →  Synthetic Data  →  ML / PINN
-        JC / CS      →      Impact Solver      →    Parquet      →   PyTorch
+        REAL-WORLD PROBLEM
+                │
+                ▼
+             MODEL
+                │
+                ▼
+           SIMULATE
+                │
+                ▼
+          GENERATE DATA
+                │
+                ▼
+            VALIDATE
+                │
+                ▼
+           OPTIMIZE
+                │
+                ▼
+            DEPLOY
 ```
 
-[![repo](https://img.shields.io/github/stars/utkdwivedi/Ballistic-Simulation-Engine?style=flat-square&logo=github)](https://github.com/utkdwivedi/Ballistic-Simulation-Engine)
-[![code](https://img.shields.io/github/languages/top/utkdwivedi/Ballistic-Simulation-Engine?style=flat-square)](https://github.com/utkdwivedi/Ballistic-Simulation-Engine)
-
-### [Homelab — GitOps Kubernetes Cluster](https://github.com/utkdwivedi/homelab)
-A reproducible self-hosted platform built around **Infrastructure as Code + GitOps**.
-
-[![tag](https://img.shields.io/github/v/tag/utkdwivedi/homelab?style=flat-square&logo=semver&logoColor=white)](https://github.com/utkdwivedi/homelab/tags)
-[![document](https://img.shields.io/website?label=document&logo=gitbook&logoColor=white&style=flat-square&url=https%3A%2F%2Fhomelab.khuedoan.com)](https://homelab.khuedoan.com)
-[![license](https://img.shields.io/github/license/utkdwivedi/homelab?style=flat-square&logo=gnu&logoColor=white)](https://www.gnu.org/licenses/gpl-3.0.html)
-[![stars](https://img.shields.io/github/stars/utkdwivedi/homelab?logo=github&logoColor=white&color=gold&style=flat-square)](https://github.com/utkdwivedi/homelab)
+I prefer projects where assumptions can be **measured**, systems can be **tested**, and performance can be **improved**.
 
 ---
 
-## 🧠 Engineering Interests
+## 🛠️ Engineering Stack
 
-```text
-Software Engineering
-├── Backend & Systems
-├── Performance Engineering
-├── Numerical Computing
-├── Machine Learning
-├── Scientific Computing
-└── Infrastructure / DevOps
+**Languages**
+
+`Python` `C++` `Java` `JavaScript`
+
+**Scientific Computing / ML**
+
+`NumPy` `SciPy` `Pandas` `Matplotlib` `PyTorch` `Numba`
+
+**Systems / Infrastructure**
+
+`Linux` `Docker` `Kubernetes` `K3s` `Terraform` `Ansible` `FluxCD` `Cilium`
+
+**Engineering Tools**
+
+`Git` `GitHub` `Bash` `VS Code`
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,pytorch,numpy,scipy,linux,docker,kubernetes,terraform,ansible,git,github,bash" alt="Technology stack">
+</p>
+
+---
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=utkdwivedi&show_icons=true&hide_border=true&rank_icon=github" height="170" alt="GitHub statistics">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=utkdwivedi&layout=compact&hide_border=true" height="170" alt="Most used languages">
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=utkdwivedi&hide_border=true" height="170" alt="GitHub streak">
+</p>
+
+---
+
+## 🐍 Contribution Graph
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg">
+    <img src="assets/github-snake.svg" alt="Contribution snake">
+  </picture>
+</p>
+
+> The snake is refreshed automatically by GitHub Actions.
+
+---
+
+## 🔭 What I'm Working Toward
+
+- Stronger **software engineering fundamentals**
+- Backend and **systems engineering**
+- High-performance Python and numerical computing
+- Machine learning grounded in physical models
+- Infrastructure that is reproducible, observable, and automated
+
+---
+
+## 🧩 Beyond the Code
+
+⚡ I enjoy understanding what happens **under the abstraction layer**.  
+🔧 I prefer building measurable projects over collecting disconnected demos.  
+🧠 I like taking a problem from **model → implementation → validation → optimization**.
+
+---
+
+<details>
+<summary>👀 You found the hidden section</summary>
+
+<br>
+
+```bash
+$ sudo apt install more-coffee
+$ python3 build_something_cool.py
+$ echo "ship it"
+ship it
 ```
 
-I enjoy the part of engineering that sits **below the abstraction layer**:
-understanding the model, the algorithm, the bottleneck, and the system that makes everything work.
+**If it works:** understand why.  
+**If it doesn't:** understand why.
+
+</details>
 
 ---
 
-## 🛠️ Tech I Work With
-
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,java,js,pytorch,numpy,scipy,linux,docker,kubernetes,terraform,ansible,git,github,bash" alt="Tech stack">
+  <b>Build.</b>&nbsp;&nbsp;
+  <b>Measure.</b>&nbsp;&nbsp;
+  <b>Understand.</b>&nbsp;&nbsp;
+  <b>Optimize.</b>
 </p>
 
 <p align="center">
-  <sub>Python · C++ · Java · JavaScript · PyTorch · NumPy · SciPy · Linux · Docker · Kubernetes · Terraform · Ansible · Git</sub>
-</p>
-
----
-
-## 📊 GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=utkdwivedi&show_icons=true&hide_border=true&rank_icon=github" height="170" alt="GitHub stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=utkdwivedi&layout=compact&hide_border=true" height="170" alt="Top languages">
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=utkdwivedi&hide_border=true" alt="GitHub streak">
-</p>
-
----
-
-## 🌐 Find Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/utkarsh-dwivedi-5938b23aa/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="mailto:utkarshdwivedi14405@bbdnitm.ac.in">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-  <a href="https://github.com/utkdwivedi">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-</p>
-
-<p align="center">
-  <i>Build. Measure. Understand. Optimize.</i>
+  <sub>Lucknow, India · Engineering Student</sub>
 </p>
